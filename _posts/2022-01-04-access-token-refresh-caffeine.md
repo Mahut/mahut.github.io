@@ -13,7 +13,7 @@ Our application needed to make authenticated requests to an external Web API. At
 
 We decided to use a cache system to store the access token until it expires.
 
-## Caffeine
+### Caffeine
 
 We chose [caffeine](https://github.com/ben-manes/caffeine), "a high performance, near optimal caching library". Caffeine is for Java applications and is well integrated with popular frameworks like **Spring**, **Camel**, **Quarkus** ...
 
@@ -30,7 +30,7 @@ Caffeine can be added via Maven :
 </dependencies>
 ```
 
-### AccessTokenHandler
+#### AccessTokenHandler
 
 We then write a `AccessTokenHandler`which will provide accessToken in order to perform our requests : 
 
