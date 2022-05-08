@@ -44,9 +44,9 @@ public class AccessTokenHandler {
 				.build(key -> requestAccessToken());
 	}
 	
-	public static synchronized KyribaAPIauthenticator getInstance() {
+	public static synchronized AccessTokenHandler getInstance() {
 		if (instance == null) {
-			instance = new KyribaAPIauthenticator();
+			instance = new AccessTokenHandler();
 		}
 		return instance;
 	}
