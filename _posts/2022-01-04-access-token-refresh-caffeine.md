@@ -57,7 +57,7 @@ public class AccessTokenHandler {
 
 	private String requestAccessToken() {
 		//TODO Retrieve access token from Auth server	
-    }
+	}
 }
 ```
 
