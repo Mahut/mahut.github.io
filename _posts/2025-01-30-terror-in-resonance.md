@@ -7,6 +7,8 @@ comments: true
 tags: [anime, thriller, mappa, japon]
 ---
 
+![alt text](2025-01-30-terror-in-resonance.png)
+
 Terror in Resonance est une série d'animation japonaise de 11 épisodes produite par le studio MAPPA en 2014. L'histoire nous plonge dans un Japon contemporain, marqué par les séquelles de la Seconde Guerre mondiale.
 
 Au cœur de l'intrigue se trouve un programme gouvernemental secret visant à améliorer artificiellement l'intelligence humaine. Pour mener à bien cette expérience, une vingtaine d'enfants de moins de 5 ans ont été enlevés. Suite à un mystérieux accident, le programme a brutalement pris fin, laissant derrière lui de nombreuses zones d'ombre.
