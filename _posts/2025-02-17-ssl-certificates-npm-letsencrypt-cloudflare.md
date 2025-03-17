@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Create a SSL Certificate in NPM using Let's Encrypt and Cloudflare DNS validation
+title: Creating SSL Certificate in Nginx Proxy Manager
 description: How to generate and auto-renew Let's Encrypt SSL certificates in Nginx Proxy Manager using Cloudflare DNS validation
 summary:
 comments: true
