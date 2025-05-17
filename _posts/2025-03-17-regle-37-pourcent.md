@@ -13,6 +13,7 @@ Le défi est que le recruteur ne peut pas attribuer une note absolue aux candida
 
 La stratégie optimale, démontrée mathématiquement, consiste à:
 
+{: .indented-list}
 1. Observer (sans choisir) les 37% premiers candidats
 2. Identifier le meilleur candidat de ce groupe initial
 3. Ensuite, sélectionner le premier candidat qui surpasse cette référence

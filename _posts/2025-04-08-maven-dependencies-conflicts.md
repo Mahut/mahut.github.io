@@ -11,6 +11,7 @@ Lorsqu'on travaille avec des projets Java, on utilise souvent des librairies (d�
 
 Maven résout les conflits de dépendances en utilisant la stratégie de la définition la plus proche (aussi appelée chemin le plus court) : 
 
+{: .indented-list}
 1. La version utilisée est celle de la dépendance qui est la plus proche de la racine de l'arbre de dépendance.
 2. Si deux dépendances en conflit sont au même niveau, la première déclarée dans le POM est utilisée.
 
@@ -113,6 +114,8 @@ Les conflits de dépendances ne sont pas forcément à résoudre. Le projet peut
 Par exemple, dans un projet Spring, on peut rencontrer différentes versions de `spring-core` (par transitivité). Il est recommandé d'utiliser `<dependencyManagement>` afin de s'assurer d'utiliser une même version à travers tous les composants Spring.
 
 On peut aussi rencontrer des problèmes lorsqu'une nouvelle version d'une librairie apporte des changements non compatibles avec des versions antérieures. Dans ce cas il faut : 
+
+{: .indented-list}
 * identifier les dépendances utilisant la nouvelle version
 * mettre à jour le code avec la nouvelle API
 * ou utiliser les **exclusions** et dépendre explicitement de l'ancienne librairie

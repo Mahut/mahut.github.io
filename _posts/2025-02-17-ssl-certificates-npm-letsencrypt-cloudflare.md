@@ -12,6 +12,7 @@ We'll use [Let's Encrypt](https://letsencrypt.org/fr/) as the certificate author
 
 ## Prerequisites
 
+{: .indented-list}
 - Nginx Proxy Manager installed and running
 - A domain managed through Cloudflare
 - Access to your Cloudflare admin dashboard
@@ -20,6 +21,8 @@ We'll use [Let's Encrypt](https://letsencrypt.org/fr/) as the certificate author
 ## Getting the Cloudflare API Token
 
 First, create an API token that NPM will use to validate your domain ownership. From your Cloudflare dashboard:
+
+{: .indented-list}
 1. Navigate to **API Tokens** in the menu
 2. Click **Create Token**
 3. Select **Custom Token**
@@ -33,22 +36,29 @@ First, create an API token that NPM will use to validate your domain ownership. 
 
 Now let's create the SSL certificate in Nginx Proxy Manager:
 
+{: .indented-list}
 1. Go to your NPM dashboard
 2. Navigate to **SSL Certificates**
 3. Click **Add SSL Certificate**
 4. Configure the certificate:
 
 ### Domain Settings
+
+{: .indented-list}
 - Primary domain: `example.com`
 - Wildcard domain: `*.example.com`
 
 ### DNS Challenge Configuration
+
+{: .indented-list}
 - Check "Use a DNS Challenge"
 - DNS Provider: Cloudflare
 - API Token: Paste your Cloudflare token
 - Propagation Time: 120 seconds
 
 Click Save and NPM will:
+
+{: .indented-list}
 - Verify your domain through Cloudflare
 - Generate the SSL certificate
 - Set up automatic renewal
@@ -56,6 +66,8 @@ Click Save and NPM will:
 ## Security Tips
 
 A few important security notes:
+
+{: .indented-list}
 - Limit the API token to only the domains you need
 - Keep your API token secure
 - Check certificate renewal status periodically
