@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Expanding a Proxmox VM Disk on Debian,
+title: Expanding a Proxmox VM Disk on Debian
 comments: true
 tags: [guide, proxmox, debian, homelab]
 ---
