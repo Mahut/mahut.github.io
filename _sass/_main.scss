@@ -149,8 +149,17 @@ strong, b {
 	font-variant-numeric: tabular-nums;
 }
 
-.post ul, .project ul, .post ol  {
-	//list-style-position: inside;
+.post ul, .project ul, .post ol, .project ol {
+	margin: 0.75rem 0 0.75rem 1.5rem;
+	padding-left: 1.25rem; // restore indentation for nested lists
+	list-style-position: outside;
+}
+
+.post li ul,
+.post li ol,
+.project li ul,
+.project li ol {
+	margin-top: 0.5rem;
 }
 
 main {
